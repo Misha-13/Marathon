@@ -1,13 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Стартовый шаблон</title>
+  <title>SCANDI</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <h1>Добро пожаловать в Лигу А.</h1>
+<body class="page-body">
+  <header class="page-header">
+    <div class="page-header__wrapper">
+      <div class="logo">
+        <img alt="Логотип Scandi">
+      </div>
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-list__element"><a class="nav-list__link" href="">О компании</a></li>
+          <li class="nav-list__element"><a class="nav-list__link" href="">Портфолио</a></li>
+          <li class="nav-list__element"><a class="nav-list__link" href="">Команда</a></li>
+          <li class="nav-list__element"><a class="nav-list__link" href="">Как мы работаем</a></li>
+          <li class="nav-list__element"><a class="nav-list__link" href="">Отзывы клиентов</a></li>
+          <li class="nav-list__element"><a class="nav-list__link" href="">Оставить заявку</a></li>
+        </ul>
+      </nav>
+      <a class="link-tel" href="tel:+79818574624">
+        +7 (981) 857-46-24
+      </a>
+    </div>
+    <section class="main-info">
+      <h1>Поможем сделать вашу квартиру уютнее</h1>
+      <p>Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку</p>
+      <a class="button main-info__button" href="">
+        Оставить заявку
+      </a>
+    </section>
+  </header>
+  <main class="page-main">
+    <section class="about-us">
+      <h2>О нас</h2>
+      <img alt="Тарелочки">
+      <p>
+        Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии.
+      </p>
+      <p>
+        Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать: « Да! Это именно то, что действительно достойно моего дома!»
+      </p>
+      <ul class="advantages-list">
+        <li class="advantages-list__element">
+          <p>5</p>
+          <p>Лет опыта</p>
+        </li>
+        <li class="advantages-list__element">
+          <p>100</p>
+          <p>Проектов</p>
+        </li>
+        <li class="advantages-list__element">
+          <p>10</p>
+          <p>Наград</p>
+        </li>
+      </ul>
+    </section>
+    <section class="our-projects">
+      <h2>Наши работы</h2>
+      <div class="our-projects__grid">
+        <div class="inform-icon">
+          <h3>Квартира-студия 30 кв.м.</h3>
+          <p>В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
+        </div>
+        <img src="" alt="Кухня">
+        <img src="" alt="Диван">
+        <img src="" alt="Ванная">
+      </div>
+      <a href="">
+        <p>Смотреть ещё</p>
+        <!-- SVG arrow -->
+      </a>
+    </section>
+    <section class="team">
+      <h2>Команда</h2>
+      <ul class="persons-list">
+        <li class="persons-list__element">
+          <img src="" alt="Рыжая">
+        </li>
+        <li class="persons-list__element">
+          <img src="" alt="Блонди короткая">
+        </li>
+        <li class="persons-list__element">
+          <img src="" alt="Блонди длинная">
+        </li>
+      </ul>
+    </section>
+    <section class="roadmap">
+      <h2>Как мы работаем</h2>
+      <ul class="itteration-list">
+        <!--Добавить псевдоэлементы-->
+        <li class="itteration-list__element">Знакомимся, выезжаем на объект, утверждаем концепцию, подписывем договор.</li>
+        <li class="itteration-list__element">Подбираем мебель, текстиль, аксессуры. Делаем 3D- зуализацию.</li>
+        <li class="itteration-list__element">Находим нужные магазины, помогаем с доставкой и оплатой товаров.</li>
+        <li class="itteration-list__element">Воплощаем проект в жизнь: расставляем мебель и цветы, вешаем шторы, находим места для мелочей</li>
+      </ul>
+    </section>
+    <section class="feedback">
+      <h2>Отзывы</h2>
+      <div class="slider">
+        <a class="slider__button--left" href="">Влево</a>
+        <ul class="slides-list">
+          <li class="slides-list__element">
+            <article class="feedback-card">
+              <div class="feedback-card__text">
+                <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
+                </p>
+                <p>Работа шла быстро, было очень приятно общаться и взаимодествовайть с сотрудниками. Не ожидала, что это будет так легко!</p>
+                <p>Буду советовать и своим друзьям к вам обращаться!»</p>
+                <p>АННА БЕЛОВСКАЯ</p>
+              </div>
+              <div class="feedback-card__img">
+                <img src="" alt="Кресла">
+                <img src="" alt="Стулья">
+              </div>
+            </article>
+          </li>
+        </ul>
+        <a class="slider__button--right" href="">Вправо</a>
+      </div>
+    </section>
+    <section class="recall">
+      <div class="recall__wrapper">
+        <h2>Оставить заявку</h2>
+        <form class="common-form" action="https://echo.htmlacademy.ru" method="POST">
+          <p>Оставьте свои контакты. Менеджер перезвонит
+            в удобное вам время и ответит на все вопросы.</p>
+          <fieldset class="common-form__fieldset">
+            <div class="common-form__wrapper">
+              <label class="visually-hidden" for="name">Имя</label>
+              <input id="name" name="name" type="text" placeholder="Ваше Имя" required="">
+            </div>
+            <div class="common-form__wrapper">
+              <label class="visually-hidden" for="phone">Телефон</label>
+              <input id="phone" name="phone" type="tel" placeholder="Ваш телефон" pattern="[0-9]{11}|[+]{1}[0-9]{11}" required="">
+            </div>
+          </fieldset>
+          <button class="common-form__button common-button" type="submit">Оставить заявку</button>
+        </form>
+      </div>
+      <img src="" alt="Карта">
+    </section>
+  </main>
+  <footer class="page-footer">
+    <a class="link-tel" href="tel:+79818574624">
+      +7 (981) 857-46-24
+    </a>
+    <p>г. Санкт-петербург, ул. Большая Конюшенная, 19</p>
+    <p>ИП Королёва А.А.</p>
+  </footer>
 </body>
 </html>
